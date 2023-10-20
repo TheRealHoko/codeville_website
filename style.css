@@ -104,12 +104,20 @@ button:hover {
     padding: 10px 40px;
 }
 
-.indice{
+.indice {
   border: 3px solid var(--color2);
   background-color: var(--color4);
   color: white;
   border-radius: 5px;
   text-align: center;
+}
+
+#indice {
+    background-color: var(--color3);
+}
+#bouton-indice {
+    font-size: large;
+    color: var(--color3);
 }
 
 footer{
