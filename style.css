@@ -119,6 +119,14 @@ button:hover {
     opacity: 50%;
 }
 
+#indice {
+    background-color: var(--color3);
+}
+#bouton-indice {
+    font-size: large;
+    color: var(--color3);
+}
+
 footer{
     padding: 20px;
     background-color: var(--color1);
