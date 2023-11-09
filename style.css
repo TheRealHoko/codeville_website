@@ -104,12 +104,19 @@ button:hover {
     padding: 10px 40px;
 }
 
-.indice{
+.indice
+{
   border: 3px solid var(--color2);
   background-color: var(--color4);
   color: white;
   border-radius: 5px;
   text-align: center;
+  transition: opacity 4s;
+}
+
+.indice::after
+{
+    opacity: 50%;
 }
 
 footer{
